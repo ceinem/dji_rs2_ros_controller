@@ -1,0 +1,11 @@
+<launch>
+
+  <node pkg="dji_rs2_ros_controller" name="dji_rs2_ros_controller" type="can_bus_controller.py" output="screen">
+  </node>
+
+  <node pkg="socketcan_bridge" name="socketcan_bridge" type="socketcan_bridge_node" output="screen">
+    <param name="can_device" value="slcan0" />
+  </node>
+
+
+</launch>
