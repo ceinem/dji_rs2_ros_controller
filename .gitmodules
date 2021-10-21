@@ -1,0 +1,3 @@
+[submodule "dependencies/ros_canopen"]
+	path = dependencies/ros_canopen
+	url = https://github.com/ros-industrial/ros_canopen
