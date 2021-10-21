@@ -3,6 +3,8 @@
 This repo contains a ROS node to interface with the DJI RS2 gimbal.
 In addition to this package, you will need the socketcan_bridge node to provide the ROS to CAN interface.
 
+Parts of this code are based on the [DJI R SDK demo software](https://terra-1-g.djicdn.com/851d20f7b9f64838a34cd02351370894/DJI%20R%20SDK/SDK%20demo%20software.zip).
+
 ## Install
 
 ### Setup ROS, catkin workspace and system dependencies
