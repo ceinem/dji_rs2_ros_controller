@@ -20,7 +20,7 @@ sudo apt install can-utils
 ```bash
 cd ~/catkin_ws/src/
 git clone git@github.com:ceinem/dji_rs2_ros_controller.git --recursive
-catkin build hough2map
+catkin build dji_rs2_ros_controller
 ```
 
 ### Hardware setup
